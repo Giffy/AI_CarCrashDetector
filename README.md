@@ -28,8 +28,17 @@ Main rules in the dataset creation were:<br>
     - car crash accidents type<br>
     
 First task was to download the candidate videos in order to process the images and homogenize the data.<br>
+Then run the module '1_Building_a_Dataset' in google colaboratory.
 We used OpenCV library to extract the frames, and scikit-image to modify and resize them. Frames are converted to 640 pixels width and from colors to grayscale.
 
 # Dataset preparation
 
-Once images are processed, starts the tough task which is visualize and clasify the images between accidents and no-accidents.
+Once images are processed, starts the tough task which is visualize and clasify the images.
+Images should be stored manually in two folders accidents and no-accidents
+
+When images are allocated in the right folder, it is time to run the next module '2_Dataset_preparation' to:
+
+Split the supervised images in two groups, one for train and another for valid which each contains images of accidents and no-accidents. The module splits them randomly and does data augmentation of accident images (which are fewer than no-accident). 
+
+It splits in train (80% of supervised image set) and valid (20% of supervised image set).
+
