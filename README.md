@@ -5,10 +5,10 @@ Every saturday from April to June 2018, we meet at AI Saturdays Barcelona to lea
 This code is the implementation of the techniques and theory that we have learned.
 
 Team members:<br>
-<li>Alicia Escontrela
-<li>Christian Tutivén
-<li>Joan Melchor
-<li>Jordi Guix
+        <li>Alicia Escontrela
+        <li>Christian Tutivén
+        <li>Joan Melchor
+        <li>Jordi Guix
 
 We implemented the code in Python 3, with 'colab jupyter notebook' in Google Colaboratory.
 
