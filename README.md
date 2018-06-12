@@ -28,5 +28,8 @@ Main rules in the dataset creation were:<br>
     - car crash accidents type<br>
     
 First task was to download the candidate videos in order to process the images and homogenize the data.<br>
-We used OpenCV library to extract the frames and scikit-image to resize to 640 width and convert colors to grayscale.
+We used OpenCV library to extract the frames, and scikit-image to modify and resize them. Frames are converted to 640 pixels width and from colors to grayscale.
 
+# Dataset preparation
+
+Once images are processed, starts the tough task which is visualize and clasify the images between accidents and no-accidents.
