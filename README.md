@@ -18,7 +18,7 @@ Where could we get thousands of videos recorded with dshboard camera? Right, in 
 
 Youtube is the largest repository of videos with many examples of both car crashes (lots of compilations) and non-crashes. 
 Fist challenge is to have consistent data. 
-Main rules in the dataset creation were:
+Main rules in the dataset creation were:<br>
     - location of the camera: should be a dashboard camera or recorded from similar location
     - crashes between cars or car and truck (no motorbikes, trains, ...)
     - light conditions: records during the day 
