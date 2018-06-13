@@ -49,4 +49,4 @@ To create the model we selected ResNet-34 archiquecture.
 ResNet-34 is a pre-trained Model for PyTorch to work with images. By using a pre-trained model we are saving time. Someone else has already spent the time and compute resources to learn a lot of features and our model will likely benefit from it.
 
 
-Images should be st
+# 4 Prediction
