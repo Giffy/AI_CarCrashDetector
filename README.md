@@ -50,3 +50,9 @@ ResNet-34 is a pre-trained Model for PyTorch to work with images. By using a pre
 
 
 # 4 Prediction
+
+To analyze if a video have an accident, with current coding, it is required to upload a video to a folder.
+Then video is split to frames and processed to homogenize the images to grayscale and downscale the width to 640 pixels.  
+Then we load the trained model and process the images to generate a preliminar prediction.
+We normalize the preliminar prediction to remove false positives due to model accuracy, difficult light conditions in image or low quality, ...
+Once the preliminar prediction is normalized, we analyze it to determine if there is any accident in the video.
